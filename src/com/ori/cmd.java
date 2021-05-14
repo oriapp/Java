@@ -7,7 +7,7 @@ public class cmd {
 //            Process runtime = Runtime.getRuntime().exec("cmd /c start cmd.exe");
             try
             {
-                Runtime.getRuntime().exec("cmd /c start cmd.exe /K \" git push -u origin main\"");
+                Runtime.getRuntime().exec("cmd /c start cmd.exe /K \" ping rickbot.net\"");
             }
             catch (Exception e)
             {
