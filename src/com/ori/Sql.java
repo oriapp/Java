@@ -4,10 +4,10 @@ import java.sql.*;
 
 public class Sql {
 
-    static final String DB_URL = "jdbc:mysql://localhost/JDB";
+    static final String DB_URL = "jdbc:mysql://localhost/jdb";
     static final String USER = "root";
     static final String PASS = "";
-    static final String QUERY = "SELECT id FROM Test";
+    static final String QUERY = "SELECT id FROM test";
 
     public static void main(String[] argus){
 
