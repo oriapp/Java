@@ -11,6 +11,14 @@ public class Sql {
 
     public static void main(String[] argus){
 
+        try(Connection connection_string = DriverManager.getConnection(DB_URL, USER, PASS);
+        Statement stmt = connection_string.createStatement();
+        ResultSet rs = stmt.executeQuery(QUERY);){
+            while (rs.next()) {
+                System.out.println(rs.getInt("id"));
+        }
+    } catch (SQLException e){
+        e.printStackTrace();
     }
-
+}
 }
