@@ -1,5 +1,4 @@
 package com.ori;
-import java.io.*;
 
 public class cmd {
 
