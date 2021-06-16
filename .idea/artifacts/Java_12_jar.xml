@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java 12:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_12_jar</output-path>
+    <root id="archive" name="Java 12.jar">
+      <element id="module-output" name="Java 12" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Downloads/demo/.mvn/wrapper/maven-wrapper.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
