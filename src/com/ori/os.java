@@ -7,5 +7,6 @@ public class os {
         String x = System.getProperty("os.name");
         System.out.println("\n");
         System.out.println(x);
+
     }
 }
